@@ -1,8 +1,15 @@
+import firebase from "firebase"
+
 const firebaseConfig = {
-    apiKey: "AIzaSyCIpKVSwAETyVcnJ7oiI-5V8m6HG7wYJGc",
-    authDomain: "linkedin-clone-44119.firebaseapp.com",
-    projectId: "linkedin-clone-44119",
-    storageBucket: "linkedin-clone-44119.appspot.com",
-    messagingSenderId: "507031573841",
-    appId: "1:507031573841:web:92793f59403182d3b2af70"
+    apiKey: "AIzaSyCCxXV-92x8OEnravYB8upZA-IK98tpfCQ",
+    authDomain: "linkedin-clone1-4a1bd.firebaseapp.com",
+    projectId: "linkedin-clone1-4a1bd",
+    storageBucket: "linkedin-clone1-4a1bd.appspot.com",
+    messagingSenderId: "519615579603",
+    appId: "1:519615579603:web:0918420bdfb062b4d21b26"
 };
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+const db = firebaseApp.firestore();
+const auth = firebase.auth();
+
+export {db , auth}
