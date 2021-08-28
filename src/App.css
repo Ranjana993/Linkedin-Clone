@@ -2,15 +2,20 @@
   margin: 0;
 }
 .App{
-  /* display: flex; */
   align-items: center;
+  margin: auto;
   flex-direction: column;
   background-color: #f3f2ef;
 }
 body{
- margin: 0;
+ align-items: center;
+ margin: auto;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .app__body{
   display: flex;
+  margin-top: 35px;
+  max-width: 1200px;
+  margin-left: 8rem;
+  margin-right: 20px;
 }
